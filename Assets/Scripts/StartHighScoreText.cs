@@ -11,7 +11,6 @@ public class StartHighScoreText : MonoBehaviour
     void Start()
     {
         HighScoreText.text = $"Top Score: {GameControl.control.TopName}: {GameControl.control.HighScore}"; 
-        Debug.Log("Trying to print top score");
         
     }
 
