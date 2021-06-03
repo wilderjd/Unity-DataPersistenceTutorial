@@ -61,13 +61,10 @@ public class GameControl : MonoBehaviour
 
     public void Load()
     {
-        Debug.Log("Loading high score");
         highScore = PlayerPrefs.GetInt("highScore",0);
 
         topName = PlayerPrefs.GetString("topName","");
 
-        Debug.Log("" + topName + " " + highScore);
-    Debug.Log("" + TopName + " " + HighScore);
     }
 
     public void UpdateHighScore(int score)
